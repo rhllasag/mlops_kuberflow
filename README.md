@@ -1,7 +1,6 @@
 # Kuberflow installed in WSL2 to MLOps at home
 This repository creates a cluser on kubernetes for coveing Kuberflow Overview Diagram
 
-![Alt text](./images/kubeflow-intro-diagram.drawio.svg)
 <img src="./images/kubeflow-intro-diagram.drawio.svg">
 
 # Requirements
