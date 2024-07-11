@@ -1,0 +1,11 @@
+#Persistent Volume Claims (PVC)
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: mlflow-pvc
+spec:
+  accessModes:
+  - ReadWriteOnce
+  resources:
+    requests:
+      storage: 5Gi # Adjust size as per your requirements

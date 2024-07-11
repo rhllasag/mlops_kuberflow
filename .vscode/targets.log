@@ -1,0 +1,224 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Wed Jul 10 19:10:17 2024
+
+# Variables
+
+# environment
+LC_ALL = C
+# environment
+PULSE_SERVER = unix:/mnt/wslg/PulseServer
+# environment
+WSLENV = VSCODE_WSL_EXT_LOCATION/up
+# environment
+VSCODE_CWD = /mnt/c/Users/35191/AppData/Local/Programs/Microsoft VS Code
+# default
+MAKE_COMMAND := make
+# environment
+VSCODE_HANDLES_SIGPIPE = true
+# environment
+GOPATH = /home/rhllasag/go
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/rhllasag/kuberflow
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+XDG_DATA_DIRS = /usr/local/share:/usr/share:/var/lib/snapd/desktop
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# automatic
+%F = $(notdir $%)
+# environment
+LANG = C
+# environment
+VSCODE_WSL_DEBUG_INFO = true
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /home/rhllasag/kuberflow
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+VSCODE_L10N_BUNDLE_LOCATION = 
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+WSL2_GUI_APPS_ENABLED = 1
+# environment
+WAYLAND_DISPLAY = wayland-0
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile
+MAKEFILE_LIST := 
+# automatic
+@F = $(notdir $@)
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+*F = $(notdir $*)
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en","osLocale":"en","availableLanguages":{}}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 0
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /home/rhllasag/.vscode-server/bin/ea1445cc7016315d0f5728f8e8b12a45dc0a7286/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/Docker/host/bin:/mnt/c/Program Files/Kubernetes/Minikube:/mnt/c/Program Files/Git/cmd:/mnt/c/MinGW/bin:/mnt/c/Users/35191/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/35191/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/35191/go/src/k8s.io/kubernetes:/snap/bin:/mnt/c/Users/35191/go/bin:/home/rhllasag/go/bin:/home/rhllasag/.local/bin
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+GOROOT = /mnt/c/Users/35191/go
+# automatic
+?F = $(notdir $?)
+# environment
+NAME = MSI
+# environment
+HOSTTYPE = x86_64
+# automatic
++F = $(notdir $+)
+# environment
+WSL_INTEROP = /run/WSL/1150_interop
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = rhllasag
+# environment
+VSCODE_WSL_EXT_LOCATION = /mnt/c/Users/35191/.vscode/extensions/ms-vscode-remote.remote-wsl-0.88.2
+# makefile
+.DEFAULT_GOAL := 
+# environment
+DISPLAY = :0
+# environment
+USER = rhllasag
+# default
+MAKE_VERSION := 4.3
+# environment
+_ = /home/rhllasag/.vscode-server/bin/ea1445cc7016315d0f5728f8e8b12a45dc0a7286/node
+# environment
+XDG_RUNTIME_DIR = /run/user/1000/
+# environment
+VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-1fd9d4b5-a753-4951-a5a5-c776c05c04c2.sock
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/rhllasag
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TERM = xterm-256color
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+WSL_DISTRO_NAME = Ubuntu
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# variable set hash-table stats:
+# Load=70/1024=7%, Rehash=0, Collisions=2/97=2%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2080, inode 144454): 10 files, no impossibilities.
+
+# 10 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+GNUmakefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# files hash-table stats:
+# Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 18 / storage = 197 B / avg = 10 B
+# current buf: size = 8162 B / used = 197 B / count = 18 / avg = 10 B
+
+# strcache performance: lookups = 21 / hit rate = 14%
+# hash-table stats:
+# Load=18/8192=0%, Rehash=0, Collisions=0/21=0%
+# Finished Make data base on Wed Jul 10 19:10:17 2024
+
+ 
