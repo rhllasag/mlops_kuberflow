@@ -1,3 +1,4 @@
 model-registry/
 mpi-operator/
 jenkins/
+.vscode/
